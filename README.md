@@ -118,4 +118,4 @@ Frontend runs at: `http://localhost:3002` (or default CRA port if unchanged).
 ## 8. Author
 
 **Vasu Bansal**  
-AI-Focused Full-Stack & Automation Engineer
+AI Systems & Automation Engineer
