@@ -115,11 +115,7 @@ Frontend runs at: `http://localhost:3002` (or default CRA port if unchanged).
 - 🌐 Live Frontend: `[Add frontend URL here]`
 - 🔌 Live Backend: `[Add backend URL here]`
 
-## 8. Screenshots
+## 8. Author
 
-Add screenshots here (editor view, node connections, run result, and export flow).
-
-## 9. Author
-
-**Your Name**  
-Full-Stack Engineer
+**Vasu Bansal**  
+AI-Focused Full-Stack & Automation Engineer
