@@ -111,7 +111,7 @@ Frontend runs at: `http://localhost:3002` (or default CRA port if unchanged).
 
 ## 7. Demo
 
-- 🎥 YouTube Demo: `[Add demo link here]`
+- 🎥 YouTube Demo: `https://www.youtube.com/watch?v=YKO6NGZ_1SE`
 - 🌐 Live Frontend: `[Add frontend URL here]`
 - 🔌 Live Backend: `[Add backend URL here]`
 
