@@ -1,0 +1,88 @@
+.app-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0e0f13;
+  color: #e7e9ee;
+}
+
+.top-toolbar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid #1a1c22;
+}
+
+.top-toolbar__left,
+.top-toolbar__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.app-sidebar {
+  border-right: 1px solid #1a1c22;
+  padding: 16px;
+}
+
+.app-canvas {
+  padding: 16px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.btn {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  background: #facc15;
+  color: #111318;
+}
+
+.btn--primary:hover {
+  background: #f4be0f;
+}
+
+.btn--secondary {
+  background: transparent;
+  border-color: #2a2d35;
+  color: #d7dbe5;
+}
+
+.btn--secondary:hover {
+  border-color: #3a3f4a;
+}
+
+@media (max-width: 980px) {
+  .app-main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .app-sidebar {
+    border-right: 0;
+    border-bottom: 1px solid #1a1c22;
+  }
+}

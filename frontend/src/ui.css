@@ -1,0 +1,41 @@
+.pipeline-ui {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #1a1c22;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #0e0f13;
+}
+
+.pipeline-ui .react-flow__renderer {
+  background-color: #0e0f13;
+}
+
+.pipeline-ui .react-flow__pane {
+  cursor: default;
+}
+
+.pipeline-ui .react-flow__edge-path {
+  stroke: #facc15;
+  stroke-width: 2;
+}
+
+.pipeline-ui .react-flow__connection-path {
+  stroke: #facc15;
+  stroke-width: 2;
+}
+
+.pipeline-ui .react-flow__controls {
+  border: 1px solid #2a2d35;
+  box-shadow: none;
+}
+
+.pipeline-ui .react-flow__controls-button {
+  background-color: #16181d;
+  border-bottom: 1px solid #2a2d35;
+  color: #d8dce5;
+}
+
+.pipeline-ui .react-flow__controls-button:hover {
+  background-color: #1c1f25;
+}

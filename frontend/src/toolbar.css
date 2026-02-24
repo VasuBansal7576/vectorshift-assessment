@@ -1,0 +1,28 @@
+.pipeline-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pipeline-toolbar__eyebrow {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8f97a6;
+}
+
+.pipeline-toolbar__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f2f4f7;
+}
+
+.pipeline-toolbar__list {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}

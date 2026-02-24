@@ -1,0 +1,26 @@
+.draggable-node {
+  cursor: grab;
+  user-select: none;
+  height: 40px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #2a2d35;
+  background: #16181d;
+  transition: border-color 0.2s ease;
+}
+
+.draggable-node:hover {
+  border-color: #3a3f4a;
+}
+
+.draggable-node--dragging {
+  cursor: grabbing;
+}
+
+.draggable-node__label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #dde1e8;
+}
